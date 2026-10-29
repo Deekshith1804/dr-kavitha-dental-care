@@ -22,6 +22,7 @@ import {
   Clock,
   Check
 } from 'lucide-react'
+import clinicLogo from './assets/logo.png'
 import './App.css'
 
 const CLINIC_INFO = {
@@ -259,7 +260,7 @@ export default function App() {
           <a href="#" className="clinic-brand" aria-label="Dr. Kavitha Dental Care Home">
             <div className="logo-wrapper">
               <img
-                src="/logo.png"
+                src={clinicLogo}
                 alt="Dr. Kavitha Dental Care Logo"
                 className="clinic-logo-img"
                 width="48"
@@ -464,7 +465,7 @@ export default function App() {
               <div className="hero-card-frame">
                 <div className="hero-logo-box">
                   <img
-                    src="/logo.png"
+                    src={clinicLogo}
                     alt="Dr. Kavitha Dental Care - Kamareddy, Telangana"
                     className="hero-logo-main"
                   />
@@ -651,7 +652,7 @@ export default function App() {
                 <div className="about-visual-card">
                   <div className="about-logo-wrapper">
                     <img
-                      src="/logo.png"
+                      src={clinicLogo}
                       alt="Dr. Kavitha Dental Care Clinic Symbol"
                       className="about-logo-img"
                     />
@@ -1124,7 +1125,7 @@ export default function App() {
             <div className="footer-brand-col">
               <div className="footer-logo-row">
                 <img
-                  src="/logo.png"
+                  src={clinicLogo}
                   alt="Dr. Kavitha Dental Care Logo"
                   className="footer-logo-img"
                   width="44"
